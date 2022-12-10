@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+@layer base {
+  html {
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+.container {
+  @apply max-w-[1280px] w-full mx-auto px-5;
+}
+
+* {
+  @apply antialiased;
+}
+
+.btn {
+  @apply py-2 px-5 bg-blue-200 border border-blue-200 rounded-md text-sm font-semibold text-white hover:bg-blue-500 hover:text-blue-200 transition-all;
+}
+
+.btn-primary {
+  @apply py-2 px-7 bg-btnPrimary rounded-3xl text-sm font-semibold text-white hover:bg-btnPrimaryHover hover:text-blue-500 transition-all;
+}
+
+.btn-secondary {
+  @apply py-[7px] px-5 bg-blue-500 rounded-3xl text-sm font-semibold text-blue-200 border border-blue-200 hover:bg-blue-200 hover:text-blue-500 transition-all;
+}
