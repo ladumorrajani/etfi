@@ -85,7 +85,7 @@ export default function Indices() {
                   loader={ImageLoader}
                   src={indices.img}
                   alt={indices.title}
-                  className="max-w-full block mb-4"
+                  className="max-w-full block mb-4 w-full"
                   height={120}
                 />
                 <div className="flex gap-4 mb-6">
