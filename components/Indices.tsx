@@ -79,7 +79,7 @@ export default function Indices() {
             return (
               <div
                 key={index}
-                className="bg-white border border-blue-500 rounded-xl p-4 flex flex-col"
+                className="bg-white border border-blue-500 rounded-xl p-4 flex flex-col sm:text-center"
               >
                 <Image
                   loader={ImageLoader}
@@ -88,7 +88,7 @@ export default function Indices() {
                   className="max-w-full block mb-4 w-full"
                   height={120}
                 />
-                <div className="flex gap-4 mb-6">
+                <div className="flex gap-4 mb-6 sm:justify-center">
                   {indices.categories.map((category, index) => {
                     return (
                       <div
