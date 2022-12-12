@@ -36,7 +36,7 @@ export default function Benefits() {
                   className="flex items-start gap-16 relative lg:gap-8 md:gap-5"
                 >
                   <div className="bg-white border border-blue-500 p-3 w-[72px] h-[72px] rounded-full sm:w-12 sm:h-12 sm:p-1">
-                    <div className="bg-blue-200 p-3 text-lg text-white w-full h-full rounded-full text-center sm:p-1 sm:text-base sm:flex sm:items-center sm:justify-center">
+                    <div className="bg-blue-200 py-3 px-1 text-lg text-white w-full h-full rounded-full text-center sm:p-1 sm:text-base sm:flex sm:items-center sm:justify-center">
                       {benefit.count}
                     </div>
                   </div>

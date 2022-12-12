@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
+@import "../assets/fonts/fonts.css";
 
 @layer base {
   html {
@@ -27,4 +28,61 @@
 
 .btn-secondary {
   @apply py-[7px] px-5 bg-blue-500 rounded-3xl text-sm font-semibold text-blue-200 border border-blue-200 hover:bg-blue-200 hover:text-blue-500 transition-all;
+}
+
+/* .path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 2000;
+  animation: dash 2s linear;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
+.path {
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 0;
+  animation: dash 10s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+  from {
+    stroke-dashoffset: 10000;
+  }
+}
+
+.zoom {
+  animation: zoom 2s linear;
+  transform: scale(1.1);
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(1.1);
+  }
+  from {
+    transform: scale(1);
+  }
+}
+
+.rotate {
+  animation: rotate 20s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(0);
+  }
+  from {
+    transform: rotate(360deg);
+  }
 }

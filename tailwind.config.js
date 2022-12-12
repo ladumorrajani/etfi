@@ -54,7 +54,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        text: "linear-gradient(90deg, #1C4B94 0%, #3584FF 0%, #1C4B94 94.3%)",
+        text: "linear-gradient(90deg, #3584FF 0%, #3584FF 20%,#1C4B94 80%, #1C4B94 100%)",
         btnPrimary:
           "linear-gradient(90deg, #1C4B94 -31.88%, #3584FF -13.09%, #1C4B94 124.47%)",
         btnPrimaryHover:

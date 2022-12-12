@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <header className="py-3 border-b border-blue-500 sticky top-0 left-0 bg-white z-10">
+    <header className="py-3 border-b border-blue-500 sticky top-0 left-0 bg-white z-20">
       <div className="container">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-blue-300 text-md font-bold">
@@ -23,7 +23,7 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
               >
                 Products
               </Link>
@@ -31,7 +31,7 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
               >
                 Features
               </Link>
@@ -39,7 +39,7 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
               >
                 How it works
               </Link>
@@ -72,7 +72,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/"
-                    className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                    className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
                   >
                     Products
                   </Link>
@@ -80,7 +80,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/"
-                    className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                    className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
                   >
                     Features
                   </Link>
@@ -88,7 +88,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/"
-                    className="text-sm text-primary font-semibold transition-all hover:opacity-70"
+                    className="text-sm text-primary font-semibold transition-all hover:text-blue-200"
                   >
                     How it works
                   </Link>

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Banner from "../components/Banner";
 import Benefits from "../components/Benefits";
+import BgAnimation from "../components/BgAnimation";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -19,6 +20,7 @@ export default function Home() {
       <HowItWorks />
       <Indices />
       <Features />
+      <BgAnimation />
       <Benefits />
       <Footer />
     </div>
