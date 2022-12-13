@@ -23,7 +23,7 @@
 }
 
 .btn-primary {
-  @apply py-2 px-7 bg-btnPrimary rounded-3xl text-sm font-semibold text-white hover:bg-btnPrimaryHover hover:text-blue-500 transition-all;
+  @apply py-2 px-7 bg-btnPrimary rounded-3xl text-sm font-semibold text-white hover:text-blue-500 bg-[length:200px_200px] bg-[0px] hover:bg-right-bottom duration-500 transition-all;
 }
 
 .btn-secondary {

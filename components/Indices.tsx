@@ -103,7 +103,7 @@ export default function Indices() {
                 <h3 className="text-xl font-bold text-primary mb-6">
                   {indices.title}
                 </h3>
-                <p className="text-sm font-semibold text-gray-400 mb-8 flex-1">
+                <p className="text-sm font-medium text-gray-400 mb-8 flex-1">
                   {indices.description}
                 </p>
                 <div className="flex justify-center">

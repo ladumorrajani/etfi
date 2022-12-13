@@ -20,7 +20,7 @@ export default function Footer() {
               width={110}
               height={34}
             />
-            <p className="text-xs font-semibold text-gray-300">
+            <p className="text-xs font-semibold text-gray-400">
               © 2022 Etfi. All rights reserved.
             </p>
           </div>

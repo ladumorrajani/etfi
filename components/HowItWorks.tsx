@@ -25,7 +25,7 @@ export default function HowItWorks() {
               the underlying tokens accurately.
             </p>
             <p className="text-base sm:text-sm text-primary m-0 font-semibold mt-8">
-              Your investment is always prized correctly and can be withdrawn at
+              Your investment is always priced correctly and can be withdrawn at
               any time.
             </p>
           </div>
