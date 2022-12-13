@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
+import logo from "../assets/images/logo.svg";
+import { ImageLoader } from "../utils/image-loader";
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -17,7 +20,13 @@ export default function Header() {
       <div className="container">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-blue-300 text-md font-bold">
-            ETFI
+            <Image
+              loader={ImageLoader}
+              src={logo}
+              alt="Logo"
+              width={94}
+              height={29}
+            />
           </Link>
           <ul className="flex items-center justify-center gap-20 md:hidden">
             <li>

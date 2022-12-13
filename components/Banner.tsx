@@ -1,6 +1,5 @@
 import Image from "next/image";
 import banner from "../assets/images/banner.png";
-import bannerMap from "../assets/images/banner-map.png";
 import { ImageLoader } from "../utils/image-loader";
 
 export default function Banner() {
@@ -10,8 +9,7 @@ export default function Banner() {
         loader={ImageLoader}
         src={banner}
         alt="banner"
-        className="absolute top-0 left-0 w-full h-full object-cover zoom"
-        fill
+        className="absolute top-0 left-0 w-full h-full object-contain zoom"
       />
 
       <div className="container relative">

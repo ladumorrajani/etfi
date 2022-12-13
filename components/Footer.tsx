@@ -4,6 +4,7 @@ import telegram from "../assets/images/telegram.svg";
 import discord from "../assets/images/discord.svg";
 import twitter from "../assets/images/twitter.svg";
 import github from "../assets/images/github.svg";
+import logo from "../assets/images/logo.svg";
 import Image from "next/image";
 
 export default function Footer() {
@@ -11,9 +12,18 @@ export default function Footer() {
     <header className="py-5 bg-blue-500 md:py-3">
       <div className="container">
         <div className="flex items-center justify-between md:flex-wrap md:gap-4 md:justify-center">
-          <p className="text-sm font-semibold text-gray-300">
-            © 2022 Etfi. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-2 sm:items-center">
+            <Image
+              loader={ImageLoader}
+              src={logo}
+              alt="Logo"
+              width={110}
+              height={34}
+            />
+            <p className="text-xs font-semibold text-gray-300">
+              © 2022 Etfi. All rights reserved.
+            </p>
+          </div>
           <ul className="flex items-center justify-center gap-6">
             <li>
               <Link

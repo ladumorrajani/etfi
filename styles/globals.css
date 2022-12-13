@@ -60,13 +60,14 @@
 }
 
 .zoom {
-  animation: zoom 2s linear;
-  transform: scale(1.1);
+  animation: zoom 0.6s linear;
+  transform: scale(1.5);
+  transform-origin: 50% 15%;
 }
 
 @keyframes zoom {
   to {
-    transform: scale(1.1);
+    transform: scale(1.5);
   }
   from {
     transform: scale(1);

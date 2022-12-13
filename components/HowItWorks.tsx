@@ -8,7 +8,7 @@ export default function HowItWorks() {
       <div className="container">
         <div className="grid grid-cols-12 justify-between items-center gap-10 md:grid-cols-1 md:gap-y-14 sm:gap-0 sm:gap-y-11">
           <div className="col-span-4 lg:col-span-5 md:col-span-12">
-            <h2 className="text-display-md font-bold text-primary mb-8 sm:text-display-sm sm:mb-6">
+            <h2 className="text-display-md font-semibold text-primary mb-8 sm:text-display-sm sm:mb-6">
               How it works
             </h2>
             <p className="text-base sm:text-sm text-gray-200 m-0 font-medium">

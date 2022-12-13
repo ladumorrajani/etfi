@@ -66,7 +66,7 @@ export default function Indices() {
       </div>
       <div className="container relative">
         <div className="text-center">
-          <h2 className="text-display-md font-bold text-primary mb-6 sm:text-display-sm">
+          <h2 className="text-display-md font-semibold text-primary mb-6 sm:text-display-sm">
             EFTI Indices
           </h2>
           <p className="text-lg text-gray-400 mb-20 lg:mb-12 sm:text-base">

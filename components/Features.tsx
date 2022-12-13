@@ -38,7 +38,7 @@ export default function Features() {
     <div className="py-36 bg-blue-600 relative lg:py-28 md:py-20 sm:py-16">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-display-md font-bold text-primary mb-6 lg:mb-4 sm:text-display-sm">
+          <h2 className="text-display-md font-semibold text-primary mb-6 lg:mb-4 sm:text-display-sm">
             Decentralized Smart Indices
           </h2>
           <p className="text-lg text-gray-400 mb-20 lg:mb-12 sm:text-base">

@@ -24,7 +24,7 @@ export default function Benefits() {
     <div className="py-36 bg-white1 lg:py-28 md:py-20 sm:py-16">
       <div className="container">
         <div className="grid grid-cols-2 items-center gap-10 lg:gap-6 md:grid-cols-1">
-          <h2 className="text-display-md font-bold text-primary md:text-center md:mb-10 sm:text-display-sm sm:mb-4">
+          <h2 className="text-display-md font-semibold text-primary md:text-center md:mb-10 sm:text-display-sm sm:mb-4">
             The benefits
           </h2>
           <div className="pr-20 flex flex-col gap-44 relative lg:pr-0 md:gap-10">
